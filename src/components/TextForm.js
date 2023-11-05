@@ -47,14 +47,14 @@ export default function TextForm(props) {
         
     </div>
     <div className="container my-3">
-      <h1>Your text summary</h1>
-      <p>{text.split(" ").length-1} words,   {text.length} characters</p>
+      <h1>Your Text Summary</h1>
+      <p>{text.split(" ").length-1} Words,   {text.length} Characters</p>
     </div>
     <div className="container">
-      <h1>preview</h1>
+      <h1>Preview</h1>
       <textarea name="myBox" id="myBox" value={pretext}  rows="4" className="form-control"></textarea>
       <br />
-      <h3>Saved text</h3>
+      <h3>Saved Text</h3>
       <textarea name="myBox" id="myBox" value={savedText}  rows="4" className="form-control"></textarea>
     </div>
     </>
